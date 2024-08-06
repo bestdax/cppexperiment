@@ -10,3 +10,4 @@ file(GLOB CPPFILES
 
 
 add_executable(${PROJECT_NAME} ${CPPFILES})
+target_precompile_headers(${PROJECT_NAME} PRIVATE include/pch.h)
