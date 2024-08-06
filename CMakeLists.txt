@@ -4,10 +4,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(experiment VERSION 1.0)
 
-
-file(GLOB CPPFILES 
-"${CMAKE_SOURCE_DIR}/*.cpp")
-
-
-add_executable(${PROJECT_NAME} ${CPPFILES})
-target_precompile_headers(${PROJECT_NAME} PRIVATE include/pch.h)
+include_directories(${CMAKE_SOURCE_DIR}/include)
+add_subdirectory(src)
