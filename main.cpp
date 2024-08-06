@@ -2,6 +2,6 @@
 
 int main(int argc, char *argv[])
 {
-	test_foldexpr();
+	dax::test_foldexpr();
 	return 0;
 }

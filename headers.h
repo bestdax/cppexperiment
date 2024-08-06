@@ -1,8 +1,5 @@
-#include <iostream>
-#include <limits>
-#include <typeinfo>
-#include <vector>
-
+namespace dax
+{
 template<typename... Args>
 void print(Args&&... args)
 {
@@ -26,3 +23,4 @@ void push_back(T container, Args&&... args)
 }
 
 void test_foldexpr();
+}

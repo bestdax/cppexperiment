@@ -1,9 +1,10 @@
 #include "headers.h"
 
-void test_foldexpr()
+void dax::test_foldexpr()
 {
-	print("hello", "world", 22);
-	print_limits<unsigned long, unsigned long long, unsigned, signed, int, float, double, long double, long, long long, char, short>();
+	dax::print("hello", "world", 22);
+	dax::print_limits<unsigned long, unsigned long long, unsigned, signed, int, float, double, long double, long, long long, char, short>();
+	dax::print("hello", "world", 23);
 
 	std::vector<int> ivec{};
 	// push_back(ivec, 1, 2, 3);
