@@ -9,3 +9,4 @@
 #include <typeinfo>
 #include <filesystem>
 #include <cstdlib>
+#include <compare>
